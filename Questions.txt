@@ -1,4 +1,9 @@
-1) Given a positive integer k, another positive integer n is said to have k-small factors if n can be
+1). An integer is defined to be an even subset of another integer n if every even factor of m is also a
+factor of n. For example 18 is an even subset of 12 because the even factors of 18 are 2 and 6 and
+these are both factors of 12. But 18 is not an even subset of 32 because 6 is not a factor of 32.
+Write a function with signature int isEvenSubset(int m, int n) that returns 1 if m is an even subset
+of n, otherwise it returns 0.
+2). Given a positive integer k, another positive integer n is said to have k-small factors if n can be
 written as a product u*v where u and v are both less than k. For instance, 20 has 10-small factors
 since both 4 and 5 are less than 10 and 4*5 = 20. (For the same reason, it is also true to say that 20
 has 6-small factors, 7-small factors, 8-small factors, etc). However, 22 does not have 10-small
