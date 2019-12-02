@@ -11,7 +11,7 @@ namespace ConsoleApp1
             int isTwinoid(int[] a)
             {
                 int count=0;
-                for (int i = 0; i < (a.Length) - 1; i++) {
+                for (int i = 0; i < (a.Length) ; i++) {
                     if (checkEven(a[i])==1)
                     {
                         count++;
