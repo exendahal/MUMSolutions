@@ -1,1 +1,1 @@
-# MUMSolitions
+# MUMSolutions
