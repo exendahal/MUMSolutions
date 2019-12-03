@@ -146,3 +146,13 @@ Another example: factorTwoCount(27) returns 0 because 2 does not divide 27.
  
 The function signature is
    int factorTwoCount(int n);
+
+13) 2. Write a function sumIsPower with signatuare
+boolean sumIsPower(int[] arr)                      
+which outputs true if the sum of the elements in the input array arr is a power of 2, false otherwise.
+Recall that the powers of 2 are 1, 2, 4, 8, 16, and so on. In general a number is a power of 2 if and
+only if it is of the form 2 n  for some nonnegative integer n. You may assume (without verifying in
+your code) that all elements in the array are positive integers. If the input array arr is null, the return
+value should be false.
+Examples:  sumIsPower({8,8,8,8}) is true since 8 + 8 + 8 + 8 = 32 = 2 5 .  sumIsPower({8,8,8})  is
+false, since 8 + 8 +8 = 24, not a power of 2.
